@@ -11,6 +11,7 @@ module.exports = {
       },
     },
   },
+  
   networks: {
     zksync_testnet: {
       url: "https://zksync2-testnet.zksync.dev",
@@ -24,6 +25,7 @@ module.exports = {
       chainId: 324,
       zksync: true,
     },
+    
   },
   paths: {
     artifacts: "./artifacts-zk",
